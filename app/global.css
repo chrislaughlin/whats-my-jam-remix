@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Orbitron:wght@500;900&display=swap');
+
+body {
+    background: silver;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.window {
+    min-width: 300px !important;
+}
+
+.window-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+
+ul {
+    padding: 0;
+}
+
+.open-in-spotify {
+    padding-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
